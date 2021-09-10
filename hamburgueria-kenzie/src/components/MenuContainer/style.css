@@ -1,0 +1,13 @@
+.menu-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .menu-container {
+    width: 900px;
+  }
+}
